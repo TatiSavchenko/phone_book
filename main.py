@@ -52,8 +52,8 @@ def add_new_contact():
 # Пункт 3.Редактировать запись
 
 def edit_contact():
-    find_string = input("Введите поисковый запрос:")
-    replace_string =input("Введите обновленные данные: ")
+    find_string = input("Введите поисковый запрос")
+    replace_string =input("Введите новые данные: ")
     file = open('sample.txt', 'w', encoding='UTF-8')
     data = file.readlines()
     new_data = []
